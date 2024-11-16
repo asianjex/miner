@@ -1,0 +1,11 @@
+git clone https://github.com/sixgpt/miner.git
+cd miner
+VANA_PRIVATE_KEY=abcdefabcef
+VANA_NETWORK=moksha
+OLLAMA_API_URL=http://ollama:11434/api
+0x0780B8Cc75e1CA935C685Cae202A1c8D1B557899
+docker-compose up -d
+docker-compose down
+docker-compose logs -f
+chmod +x run_sixgpt.sh
+./run_sixgpt.sh
